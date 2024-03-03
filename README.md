@@ -1,4 +1,4 @@
-#Travel Journal built with React
+# Travel Journal built with React
 
 link: https://traveljounalx.netlify.app
 
