@@ -1,6 +1,6 @@
 # Travel Journal built with React
 
-link: https://traveljounalx.netlify.app
+visit [TravelJounal](https://traveljounal.netlify.app)
 
 To run the project locally:
 
