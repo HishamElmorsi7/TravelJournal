@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+nav {
+    height: 55px;
+    background-color:  #F55A5A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav--logo {
+    width: 24px;
+    height: 24px;
+    margin-right: 7px;
+}
+
+.nav--title {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: -1.085px;
+
+}
+
+.blog--image {
+    width: 150px;
+    height: 195px;
+    border-radius: 5px;
+}
+
+.blogs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 45px;
+    padding: 10px;
+}
+
+.blog {
+    display: flex;
+    max-width: 570px;
+    width: 100% ;
+    align-items: center;
+    margin-bottom: 45px;
+    /* cursor: pointer; */
+}
+
+.blog--content {
+    max-width: 320px;
+}
+
+.blog--leftSection {
+    margin-right: 20px;
+}
+
+.blog--locationLogo {
+    margin-right: 4px;
+}
+
+.blog--country {
+    color: #2B283A;
+    font-size: 10.24px;
+    font-weight: 400;
+    letter-spacing: 1.741px;
+    margin-right: 12px;
+}
+
+.blog--map {
+    color: #918E9B;
+    font-size: 10.24px;
+    font-weight: 400;
+    
+}
+
+.blog--stats {
+    align-content: center;
+}
+
+.blog--title {
+    max-height: 100px;
+    display: flex;
+    align-items: center;
+    color: #2B283A;
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 4px;
+}
+
+.blog--date {
+    color: #2B283A;
+    font-size: 10.24px;
+    font-weight: 700;   
+    margin-top: 7px;
+    margin-bottom: 9px;
+}
+
+.blog--content {
+    color: #2B283A;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 150%; /* 15.36px */
+}
+
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+    .blog--title {
+        font-size: 20px; /* Adjust the font size for smaller screens */
+    }
+}
